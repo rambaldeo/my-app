@@ -11,6 +11,7 @@ function App() {
     <div>
           <Nav />
           <Hero />
+          <br></br>
           <Home />
           
           <footer className="footer">

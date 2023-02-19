@@ -1,6 +1,7 @@
 import React from "react";
 import '../../App.js';
 import '../../index.css';
+import ProfilePic from '../Photos/IMG_7369.jpeg';
 
 
     function Home() {
@@ -9,7 +10,7 @@ import '../../index.css';
             <div id="row" class="content">
                 <div class="box left">
                     <br></br>
-                <p>
+                <p id="Intro">
 	            Growing up, I've always been fancinated by computers and wanted to 
                  create my own application in the future. I was never the smartest 
                 kid in the room, but I try to be as observant as possible to notice 
@@ -22,9 +23,15 @@ import '../../index.css';
 	</p>
                 </div>
                 <div class="box right">
-                    <br></br>
+                    
+                    
+                       <img src={ProfilePic} id="profile" alt="Firstimage" className="center"/>
+                    
+                </div>
+                <div class="box">
                     <p>
-                        This is just a start, I am going to continue to improve this as much as I can.
+                        Going to be editing this more as I learn. Having this will be my introduction page and
+                        I am going to attempt at putting a video as a background for my pages
                     </p>
                 </div>
             </div>
