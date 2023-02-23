@@ -14,19 +14,19 @@ background-color: #000;
   
 }
 .Body{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   
 }
 .content {
   width: 99%;
   height: 500px;
-  border: 10px solid #c3c3c3;
+  border: 5px solid #000000;
   display: flex;
 }
 .box{
   width: 50%;
   height: 400px;
-  border: 10px solid;
+  border: 5px solid rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
 }

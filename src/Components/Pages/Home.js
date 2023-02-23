@@ -2,7 +2,7 @@ import React from "react";
 import '../../App.js';
 import '../../index.css';
 import ProfilePic from '../Photos/IMG_7369.jpeg';
-
+import HoverProfilePic from '../HoverProfilePic.jsx'
 
     function Home() {
         return (
@@ -25,7 +25,7 @@ import ProfilePic from '../Photos/IMG_7369.jpeg';
                 <div class="box right">
                     
                     
-                       <img src={ProfilePic} id="profile" alt="Firstimage" className="center"/>
+                       <HoverProfilePic />
                     
                 </div>
                 <div class="box">
@@ -34,8 +34,9 @@ import ProfilePic from '../Photos/IMG_7369.jpeg';
                         I am going to attempt at putting a video as a background for my pages
                     </p>
                 </div>
+                <br></br>
             </div>
-
+                    
             </div>
             
         );
